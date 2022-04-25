@@ -1,0 +1,92 @@
+@media (min-width: 401px) {
+    p{
+        font-size: 1.3em;
+    }
+
+    .container{
+        width: 390px;
+    }
+}
+
+@media (max-width: 299px) {
+    h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 199px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+}
+
+
+@media screen{
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media print{
+    body{
+        background-color: white;
+    }
+}
+
+@media all{
+    body{
+        background-color: #ddccaa;
+    }
+}
+
+@media not(color){
+    #wikipedia-logo{
+        visibility: hidden;
+    }
+}
+
+@media (hover: hover){
+    blockquote{
+        background-color: #cf244f;
+    }
+}
+
+/*Funcionamiento del media hover en los navegadores: 
+Chrome: Compatible (38)
+Edge: Soporte total (12)
+Firefox: Soporte total (64)
+Internet Explorer: No lo soporta
+Opera: Soporte total (28)
+Safari: Soporte total (9)
+
+Dispositivos móviles: 
+WebView Android: Compatible (38)
+Chrome Android: Soporte total (50)
+Firefox for Android: Soporte total (64)
+Opera Android: Soporte total (28)
+Safari on iOS: Soporte total (9)
+Samsung Internet:Soporte total (5.0)*/
+
+@media (aspect-ratio: 1/1){
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:600px ) and (max-width: 800px), (width: 400px){
+    figcaption{
+        color: #df5477;
+    }
+}
