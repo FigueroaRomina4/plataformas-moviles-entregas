@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>sanrio</title>
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(250, 214, 220);">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://static.wikia.nocookie.net/amiibopedia/images/8/81/Pompompurin.png/revision/latest?cb=20170425213445&path-prefix=es" height="55px" width="55px" >Sanrio
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Pagina1</a>
+              <a class="nav-link" href="#">Pagina2</a>
+              <a class="nav-link" href="#">Pagina3</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+
+      <div class="container" >
+        <div class="row g-3">
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="http://pm1.narvii.com/6819/afa8c261e848a0338db94ad3f43fc28d5d89b974v2_00.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Keroppi</h5>
+                      <p class="card-text">Kero Kero Keroppi es un personaje japones de una rana. Fue hecho en 1987 por Sanrio. Keroppi le gusta las bolas de arroz que su madre hizo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/ba/e2/39/bae239997772d95edbda0e105a5c6c3e.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chococat</h5>
+                      <p class="card-text">Chococat fue lanzado por primera vez en 1996 y su cumpleanios es el 10 de mayo. Su nombre viene de su nariz color cafe.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/b8/25/bb/b825bb31be1eb524ca23a0b895b0984d.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pochacco</h5>
+                      <p class="card-text">Pochacco fue creado en 1989. A menudo se viste con ropa deportiva, ya que tiene una personalidad deportiva y juguetona.</p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="https://static.wikia.nocookie.net/hellokitty/images/2/20/Sanrio_Characters_My_Sweet_Piano_Image002.jpg/revision/latest?cb=20170327084137" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">My Sweet Piano</h5>
+                      <p class="card-text">es un personaje de Sanrio, que debuto en 1976. Es una oveja con un suave pelaje rosado y nariz amarilla, ademas, es la mejor amiga de My Melody</p>
+                    </div>
+                </div>  
+            </div>
+
+        </div>
+       </div> 
+
+       <br><br>
+
+       <h3 class="text-center mb-2">
+        ¿Que otro personaje te gustaria ver?
+       </h3>
+
+       <br>
+
+       <form>
+           <div class="row mb-3 mt-3 ">
+               <label for="Nombre" class="col-lg-2 col-form-label">Nombre</label>
+               <div class="col-lg-10">
+                   <input type="text" class="form-control" id="nombre" />
+               </div>
+           </div>
+           <div class="mb-3 row">
+               <label for="Email" class="col-lg-2 col-form-label">Email</label>
+               <div class="col-lg-10">
+                   <input type="text" class="form-control" id="email" />
+               </div>
+           </div>
+           <div class="mb-3 row">
+               <label for="Opinion" class="col-lg-2 col-form-label">Personaje/s </label>
+               <div class="col-lg-10">
+                   <textarea class="form-control" rows="3" id="opinion"></textarea>
+               </div>
+           </div>
+
+           <div id="buttons" class="d-flex justify-content-center justify-content-lg-end">
+            <button type="submit" class="btn btn-warning m-3">Enviar</button>
+            <button type="reset" class="btn btn-danger m-3">Cancelar</button>
+          </div>
+       </form>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active ">
+            <img src="https://www.wallpaperuse.com/wallp/89-897301_m.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.wallpaperuse.com/wallp/89-897325_m.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.wallpaperuse.com/wallp/89-897300_m.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+      <article id="articulo">
+        <header class="text-center">
+          <h1 class="display-4">Sanrio</h1>
+        </header>
+        <br />
+        <section class="text-lg-center">
+          <p>
+            Sanrio es una empresa japonesa que crea una gama de productos (sobre todo) de disenio que ofrece la serie de personajes, y licencias y vende diversos productos de marca con estos personajes. Estos productos incluyen articulos de papeleria, utiles escolares, regalos y accesorios. El personaje mas conocido es Hello Kitty, una gata blanca antropomorfica con un lazo rojo, una de las mas exitosas marcas en el mundo, ademas de embajadora infantil de UNICEF.
+          </p>
+          <p>
+            SANRIO fue iniciado por Shintaro Tsuji como Yamanashi Silk Company en 1960, por medio de 1 millon de yenes de capital. La compania produce una linea de personajes en torno a la mercancia de regalos de ocasiones. No fue hasta 1973 cuando la empresa fue creada oficialmente con el nombre de "Sanrio". El nombre Sanrio se derivo de las palabras San y Rio del Espanil. San puede ser encontrado en varios nombres de ciudades, como San Francisco y San Diego. Rio puede ser tambien encontrado en nombres de lugares como Rio de Janeiro y Rio Grande.
+          </p>
+          <p>
+            Otros personajes populares en particular a traves de los anios han sido los Little Twin Stars (creado por el Sr Tsuji a si mismo), My Melody, Keroppi, Tuxedo Sam, Bad Badtz-Maru, Tenorikuma, Usahana, Pochacco, Chococat, y Cinnamoroll. SANRIO constantemente agrega nuevos personajes a su linea (hasta tres al anio), por lo que algunos de los antiguos personajes entran en la jubilacion. Algunas de las novedades de SANRIO entre sus personajes son Charmmy Kitty (mascota gato de Hello Kitty), Kuromi (rival de My Melody) y Chi Chai Monchan (un mono de color rosa con dos platanos en la cabeza.) 
+          </p>
+        </section>
+      </article>
+
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="row text-center">
+            <div class="col-12 col-sm-12 col-lg-4 mx-auto">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Pie 1</h6>
+                <p>
+                    <a href="#" class="text-decoration-none text-reset">Gracias</a>
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mx-auto">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Pie 2</h6>
+                <p>
+                    <a href="#" class="text-decoration-none text-reset">Por</a>
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4 mx-auto">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Pie 3</h6>
+                <p>
+                    <a href="#" class="text-decoration-none text-reset">Ver</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+  
+</body>
+</html>
